@@ -61,7 +61,7 @@ export default class SlideVerify {
     if (lang && lang === "en") {
       intlText = { slideTips: "Slide to complete the puzzle" };
     } else {
-      intlText = { slideTips: "Trượt sang phải để khớp" };
+      intlText = { slideTips: "Trượt miếng ghép khớp với ảnh" };
     }
     let conEl = <HTMLElement>document.getElementById(elementId);
     conEl.innerHTML = Verify({
